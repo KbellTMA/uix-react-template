@@ -1,7 +1,12 @@
 {
   "name": "uix-react-template",
   "version": "0.0.1",
+  "description": "React boilerplate created for the UIX team"
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TzolkinB/react-template"
+  },
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack",
