@@ -4,14 +4,14 @@ import { render }     from 'react-dom'
 
 import 'Style/app.css';
 
-import MIBrandBar       from  './components/shared/MIBrandBar';
-import AppBar           from  './components/shared/AppBar';
-import Breadcrumbs      from  './components/shared/Breadcrumbs';
-import Footer           from  './components/shared/Footer';
+import BrandBar    from  './components/shared/BrandBar';
+import AppBar      from  './components/shared/AppBar';
+import Breadcrumbs from  './components/shared/Breadcrumbs';
+import Footer      from  './components/shared/Footer';
 
 const App = () => (
   <div>
-    <MIBrandBar />
+    <BrandBar />
     <AppBar />
     <Breadcrumbs />
     <Footer />
@@ -23,4 +23,4 @@ render(
     <App />
   </HashRouter>
 
-  , document.getElementById('uix-react-template'));
+  , document.getElementById('react-template'));
