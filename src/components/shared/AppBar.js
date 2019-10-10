@@ -17,12 +17,12 @@ function handleToggleProfile() {
 }
 
 const apps = [
-  {name: 'MEGA', letter: 'M', addClass: 'meg', link: '../../../meg/statePortal/admin/index.html'},
-  {name: 'County', letter: 'M', addClass: 'meg', link: '../../../meg/countyPortal/admin/index.html'},
-  {name: 'Local Unit', letter: 'M', addClass: 'meg', link: '../../../meg/localPortal/index.html'},
-  {name: 'State', letter: 'A', addClass: 'amar', link: '../../state/public/index.html'},
-  {name: 'TMA', letter: 'A',addClass: 'amar',  link: '../../tma/public/index.html'},
-  {name: 'Local Unit', letter: 'A', addClass: 'amar', link: '../../local/public/index.html'}
+  {name: 'M1', letter: 'M', addClass: 'meg', link: '#'},
+  {name: 'M2', letter: 'M', addClass: 'meg', link: '#'},
+  {name: 'M3', letter: 'M', addClass: 'meg', link: '#'},
+  {name: 'A1', letter: 'A', addClass: 'amar', link: '#'},
+  {name: 'A2', letter: 'A',addClass: 'amar',  link: '#'},
+  {name: 'A3', letter: 'A', addClass: 'amar', link: '#'}
 ];
 
 const AppBar = () => {
