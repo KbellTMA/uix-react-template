@@ -26,14 +26,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx)$/, // regex instructs compiler which loader to use
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
       {
         test: /\.css$/,
         use: [
-          { loader: 'style-loader' },
+          { loader: 'style-loader' }, //adds style script tag of array of styles passed by css-loader
           { loader: 'css-loader' }
         ]
       },

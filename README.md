@@ -1,10 +1,16 @@
-# uix-react-template
+# react-template
 React template to quickly scaffold new apps.
 
-## Dev Client Fork & Installation
-Fork the uix-react-template repo:
+## Dev Client Clone & Installation
+Clone and rename the react-template repo:
 
-    git@github.com:KbellTMA/uix-react-template.git
+    git clone git@github.com:KbellTMA/react-template.git new_repo_name
+    * don't forget to add the .gitignore and .babelrc files
+
+Set up remote as usual:
+
+    git remote add origin git@github.com:TzolkinB/(new_repo_name).git
+    git push -u origin master
 
 Then install all of the npm dependencies:
 
