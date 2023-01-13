@@ -34,7 +34,7 @@
     "redux-logger": "^3.0.6",
     "style-loader": "^0.20.3",
     "webpack": "^3.8.1",
-    "webpack-cli": "^3.0.3",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^2.11.2"
   }
 }
